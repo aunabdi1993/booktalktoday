@@ -10,7 +10,11 @@ module.exports = {
     "./components/PostWidget.jsx.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'btt': '#620A0A'
+      }
+    },
   },
   plugins: [],
 }
